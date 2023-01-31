@@ -1,4 +1,3 @@
-# Transparent Item Frames
 ![](banner.png)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg?style=for-the-badge)](https://www.gnu.org/licenses/gpl-3.0)
 ![](https://img.shields.io/badge/Minecraft-1.19-green?style=for-the-badge)
