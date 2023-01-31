@@ -3,11 +3,11 @@
     "requirement": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "invisibleitemframes:transparent_glow_item_frame"
+        "recipe": "invisibleitemframes:invisible_glow_item_frame"
       }
     }
   },
   "rewards": {
-    "function": "invisibleitemframes:recipes/transparent_glow_item_frame"
+    "function": "invisibleitemframes:recipes/invisible_glow_item_frame"
   }
 }
