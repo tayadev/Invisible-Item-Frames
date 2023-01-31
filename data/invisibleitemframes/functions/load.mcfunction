@@ -1,0 +1,2 @@
+scoreboard objectives add invisibleitemframes.count dummy
+function invisibleitemframes:tick

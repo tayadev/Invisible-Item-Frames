@@ -1,0 +1,2 @@
+advancement revoke @s only invisibleitemframes:place
+execute as @e[tag=invisibleitemframes.frame] at @s unless entity @e[type=marker,tag=invisibleitemframes.marker,distance=..0.1] run summon marker ~ ~ ~ {Tags:["invisibleitemframes.marker"]}

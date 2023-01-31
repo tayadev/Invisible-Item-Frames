@@ -1,0 +1,26 @@
+name: Optimize and package Datapack
+on:
+  push:
+    tags:
+      - '**'
+jobs:
+  packsquash:
+    name: Optimize Datapack
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Run PackSquash
+        uses: ComunidadAylas/PackSquash-action@v3
+      - name: Download optimized pack
+        uses: actions/download-artifact@v3
+        with:
+          name: Optimized pack
+      - name: Rename zip
+        run: mv pack.zip ${{ github.event.repository.name }}.zip
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: ${{ github.event.repository.name }}.zip

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {"item": "item_frame"},
+    {"item": "glass_pane"}
+  ],
+  "result": {
+    "item": "minecraft:knowledge_book",
+    "count": 1
+  }
+}

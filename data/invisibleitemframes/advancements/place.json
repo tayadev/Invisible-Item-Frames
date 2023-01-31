@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "player": [],
+        "item": {
+          "items": [
+            "minecraft:glow_item_frame",
+            "minecraft:item_frame"
+          ],
+          "nbt": "{EntityTag:{Tags:[\"invisibleitemframes.frame\"]}}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "invisibleitemframes:onplace"
+  }
+}

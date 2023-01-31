@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Invisible Item Frames",
+        "description": "Adds craftable invisible item frames to minecraft",
+        "icon": {
+            "item": "item_frame",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:tayacrystals",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

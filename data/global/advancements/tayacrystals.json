@@ -1,0 +1,18 @@
+{
+    "display": {
+        "title": "Taya Crystals",
+        "description": "https://taya.one",
+        "icon": {
+            "item": "minecraft:player_head",
+            "nbt": "{SkullOwner:\"TayaMc\"}"
+        },
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "parent": "global:root",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

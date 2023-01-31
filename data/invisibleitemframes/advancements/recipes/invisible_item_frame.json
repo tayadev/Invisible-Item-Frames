@@ -1,0 +1,13 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "invisibleitemframes:transparent_item_frame"
+      }
+    }
+  },
+  "rewards": {
+    "function": "invisibleitemframes:recipes/transparent_item_frame"
+  }
+}
