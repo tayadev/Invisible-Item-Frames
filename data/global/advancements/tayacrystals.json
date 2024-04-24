@@ -3,8 +3,8 @@
         "title": "Taya Crystals",
         "description": "https://taya.one",
         "icon": {
-            "item": "minecraft:player_head",
-            "nbt": "{SkullOwner:\"TayaMc\"}"
+            "id": "minecraft:player_head",
+            "components": {"minecraft:profile": "TayaMc"}
         },
         "show_toast": false,
         "announce_to_chat": false
