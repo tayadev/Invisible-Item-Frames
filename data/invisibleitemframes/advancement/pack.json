@@ -1,0 +1,1 @@
+{"display":{"title":"Invisible Item Frames","description":"Adds craftable invisible item frames to minecraft","icon":{"id":"item_frame","components":{"minecraft:enchantment_glint_override":true}},"announce_to_chat":false,"show_toast":false},"parent":"global:tayacrystals","criteria":{"trigger":{"trigger":"minecraft:tick"}}}
